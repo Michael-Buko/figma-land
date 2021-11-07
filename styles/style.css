@@ -1,0 +1,461 @@
+/* RESET STYLES
+-------------------------------------------------------------- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* BASE CONFIG
+-------------------------------------------------------------- */
+
+html {
+    /* EDIT */
+    font-size: 16px;
+}
+
+.wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Heading component
+-------------------------------------------------------------- */
+
+.heading {
+    padding: 1rem 0;
+    /* EDIT */
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+/* Logo component
+-------------------------------------------------------------- */
+
+.logo {
+    display: flex;
+    flex: 0 0 206px;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+}
+
+.logo__image {
+    object-fit: scale-down;
+    width: 177px;
+    height: 63px;
+}
+
+/* Menu component
+-------------------------------------------------------------- */
+
+.menu__items {
+    display: flex;
+    gap: 20px;
+    flex: 2 1;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.menu__item {}
+
+/* Header
+-------------------------------------------------------------- */
+
+.header__top-line {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.header__account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 5px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.account__account {}
+
+.account__favorites {}
+
+.account__cart {}
+
+.account__menu {
+    display: none;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 104px 0;
+}
+
+.header {
+    background: url(../assets/header/background.jfif) no-repeat;
+    background-size: 1440px;
+    background-position: center 10%;
+}
+
+.header__caption {
+    padding: 1rem;
+    color: #999;
+}
+
+.header__title {
+    padding: 1rem;
+    color: #999;
+}
+
+.header__slogan {
+    padding: 1rem;
+    color: #999;
+}
+
+.header__button {
+    color: #999;
+}
+
+/* Categories
+-------------------------------------------------------------- */
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 29px;
+    column-gap: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 569px;
+    padding: 50px 0;
+}
+
+.category {
+    display: flex;
+    flex: 1 1 220px;
+    justify-content: center;
+    align-items: center;
+    min-width: 370px;
+}
+
+.category-center {
+    flex: 0 0 469px;
+}
+
+.category__button {
+    height: 54px;
+    padding: 20px;
+    text-transform: uppercase;
+    background: transparent;
+    border-color: white;
+}
+
+.hat {
+    background: url(../assets/categories/hat.jfif) no-repeat center/100%;
+}
+
+.shoes {
+    background: url(../assets/categories/shoes.jfif) no-repeat center/100%;
+}
+
+.dresses {
+    background: url(../assets/categories/dresses.jfif) no-repeat center/85%;
+}
+
+.bags {
+    background: url(../assets/categories/bags.jpg) no-repeat center/100%;
+}
+
+.clothes {
+    background: url(../assets/categories/clothes.jpg) no-repeat center/100%;
+}
+
+/* Popular Products
+-------------------------------------------------------------- */
+
+.popular-products {
+    padding: 80px 0;
+}
+
+/* New Products
+-------------------------------------------------------------- */
+
+.new-products {
+    padding: 80px 0;
+}
+
+/* Product component
+-------------------------------------------------------------- */
+
+.products__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 20px;
+    padding-top: 50px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1 0 240px;
+    max-width: 300px;
+}
+
+.product__image {
+    align-self: center;
+    object-fit: cover;
+    border-radius: 3%;
+    width: 242px;
+    height: 414px;
+}
+
+.product__caption {}
+
+.product__subtitle {}
+
+.product__cost {}
+
+.product__colors {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+}
+
+.product__color {}
+
+.product__sizes {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+}
+
+.product__size {}
+
+.product__image-small {
+    align-self: center;
+    width: 240px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product__caption-small {}
+
+.product__subtitle-small {}
+
+.product__cost-small {}
+
+/* Our Blog
+-------------------------------------------------------------- */
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+.blog__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 0 30px;
+}
+
+/* Articles component
+-------------------------------------------------------------- */
+
+.article {
+    width: 331px;
+}
+
+.article__image {
+    width: 331px;
+    height: 202px;
+    object-fit: cover;
+}
+
+.article__date {}
+
+.article_title {}
+
+.article_subtitle {}
+
+.article_text {}
+
+.article_links {}
+
+.article__link {}
+
+/* Social networks
+-------------------------------------------------------------- */
+
+.social-networks {}
+
+.social-networks__heading {
+    padding: 1rem 0;
+    /* EDIT */
+    font-size: 3.6rem;
+    text-align: center;
+}
+
+.social-networks__content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-networks__card {
+    width: 349px;
+    height: 249px;
+}
+
+.card--summer {
+    background: url(../assets/social-networks/social-networks-1.jfif) center/100% no-repeat;
+}
+
+.card--bags {
+    background: url(../assets/social-networks/social-networks-2.jfif) center/100% no-repeat;
+}
+
+.card--hats {
+    background: url(../assets/social-networks/social-networks-3.jfif) center/100% no-repeat;
+}
+
+.card--casual {
+    background: url(../assets/social-networks/social-networks-4.jfif) center/100% no-repeat;
+}
+
+.card--music {
+    background: url(../assets/social-networks/social-networks-5.jfif) center/100% no-repeat;
+}
+
+.social-networks__card:nth-child(5) {
+    display: none;
+}
+
+.social-networks__pages {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button__previous-page {}
+
+.button__next-page {}
+
+.counter {}
+
+.counter:nth-child(4) {
+    display: none;
+}
+
+.counter:nth-child(5) {
+    display: none;
+}
+
+/* Footer
+-------------------------------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 110px;
+    background: #252b42;
+}
+
+.footer__social-networks {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #999;
+}
+
+.footer__twitter {}
+
+.footer__facebook {}
+
+.footer__linkedln {}
+
+/* Media queries
+-------------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+    .blog__content {
+        justify-content: space-around;
+    }
+    .categories {
+        height: 1067px;
+    }
+    .social-networks__card:nth-child(1n+1) {
+        display: none;
+    }
+    .social-networks__card:nth-child(4n+1) {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        background-size: 800px;
+        background-position: center 0%;
+    }
+    .account__menu {
+        display: flex;
+    }
+    .account__account {
+        display: none;
+    }
+    .account__favorites {
+        display: none;
+    }
+    .menu__items {
+        display: none;
+    }
+    .blog__content {
+        justify-content: center;
+    }
+    .categories {
+        height: auto;
+    }
+    .social-networks__card:nth-child(1n+1) {
+        display: none;
+    }
+    .social-networks__card:nth-child(5) {
+        display: flex;
+    }
+    .button__previous-page {
+        display: none;
+    }
+    .button__next-page {
+        display: none;
+    }
+    .counter:nth-child(4) {
+        display: flex;
+    }
+    .counter:nth-child(5) {
+        display: flex;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
