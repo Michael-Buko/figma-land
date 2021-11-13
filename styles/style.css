@@ -55,16 +55,22 @@ html {
 /* Menu component
 -------------------------------------------------------------- */
 
-.menu__items {
+.main-nav {
     display: flex;
-    gap: 20px;
     flex: 2 1;
     align-items: center;
     justify-content: center;
+}
+
+.main-nav__list {
+    display: flex;
+    gap: 20px;
     list-style-type: none;
 }
 
-.menu__item {}
+.main-nav__item {}
+
+.main-nav__link {}
 
 /* Header
 -------------------------------------------------------------- */
@@ -423,7 +429,7 @@ html {
     .account__favorites {
         display: none;
     }
-    .menu__items {
+    .main-nav--disable {
         display: none;
     }
     .blog__content {
@@ -453,8 +459,7 @@ html {
     .footer {
         flex-direction: column;
     }
-    .footer-menu {
-        display: flex;
+    .main-nav__list--vertical {
         flex-direction: column;
     }
 }
